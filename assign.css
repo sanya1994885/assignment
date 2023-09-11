@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.dashboard {
+    background: linear-gradient(-46deg, red, #e73c7e, #23a6d5, #23d5ab, #23a6b1);
+    background-size: 1000% 1000%;
+    animation: gradient 19s ease infinite;
+    padding: 160px;
+    text-align: center;
+}
+.widget {
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 20px;
+    flex: 1;
+}
+button:hover {
+    background-color: black; /* Change the color to your desired hover effect */
+    color: white; /* Change the text color for better contrast */
+}
+
+.delete-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
